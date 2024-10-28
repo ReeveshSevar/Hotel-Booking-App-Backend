@@ -1,0 +1,9 @@
+package com.sevar.Hotel.Booking.App.exception;
+
+public class PhotoRetrievalException extends RuntimeException {
+
+    public PhotoRetrievalException(String message) {
+        super(message);
+    }
+
+}
